@@ -1,0 +1,5 @@
+train: 20210206/train/images
+val: 20210301/valid/images
+
+nc: 3
+names: ['BP', 'RBC', 'WBC']
