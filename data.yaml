@@ -1,4 +1,5 @@
-train: 20210206/train/images
+train: 20210206/train/images 
+train: 20210301/train/images
 val: 20210301/valid/images
 
 nc: 3
