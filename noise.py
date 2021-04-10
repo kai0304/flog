@@ -56,4 +56,4 @@ def main(dir_in, dir_out):
                 
 dir = os.path.dirname(os.path.abspath(__file__))
 print(dir)
-main(dir + 'data/original/cytospin', dir + '/data/processing')
+main(dir + '/data/original/cytospin', dir + '/data/processing')
