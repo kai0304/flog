@@ -59,7 +59,7 @@ def main(dir_in, dir_out):
         img = imageio.imread(filepath)
         #変換器
         #ノイズ　リスト複数入力可
-         noise(filepath, dir_out, img, [0.3])
+        noise(filepath, dir_out, img, [0.3])
         #色反転
         invert(filepath, dir_out, img, 0.3, 1.0)
         #エッジ検出
